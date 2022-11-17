@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Feladatok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo.png" class="logo">
+            <nav>
+                <ul id="menuList">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Abaout</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Ez egy áldás gomb</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Német</h2>
+                <!--<h3>wireless controlled ps4</h3>
+                <p>compatibility</p>
+                <h4>ennyibe kerűl</h4>-->
+                <button type="button">Kész Feladatok megnézése<img src="images/arrow.png"></button>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-1">
+                <h2>Pénzügy</h2>
+                <!--<h3>wireless controlled ps4</h3>
+                <p>compatibility</p>
+                <h4>ennyibe kerűl</h4>-->
+                <button type="button">Kész Feladatok megnézése<img src="images/arrow.png"></button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Kommunikáció</h2>
+                <!--<h3>wireless controlled ps4</h3>
+                <p>compatibility</p>
+                <h4>ennyibe kerűl</h4>-->
+                <button type="button">Kész Feladatok megnézése<img src="images/arrow.png"></button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Szakelmélet</h2>
+                <!--<h3>wireless controlled ps4</h3>
+                <p>compatibility</p>
+                <h4>ennyibe kerűl</h4>-->
+                <button type="button">Kész Feladatok megnézése<img src="images/arrow.png"></button>
+            </div>
+        </div>
+
+        <div class="row">  
+            <div class="col-1">
+                <h2>Matematika</h2>
+                <!--<h3>wireless controlled ps4</h3>
+                <p>compatibility</p>
+                <h4>ennyibe kerűl</h4>-->
+                <button type="button">Kész Feladatok megnézése<img src="images/arrow.png"></button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <h2>Testnevelés</h2>
+                <!--<h3>wireless controlled ps4</h3>
+                <p>compatibility</p>
+                <h4>ennyibe kerűl</h4>-->
+                <button type="button">Kész Feladatok megnézése<img src="images/arrow.png"></button>
+            </div>
+        </div>
+
+           <!-- <div class="col-2">
+                <img src="images/controller.png" class="controller">
+                <div class="color-box"></div>
+                <div class="add-btn"></div>
+                <img src="images/add.png">
+                <p><small>Add to Card</small></p>
+            </div>-->
+        </div>
+
+
+<!--social link-->        
+        <div class="social-links">
+            <img src="images/fb.png">
+            <img src="images/tw.png">
+            <img src="images/ig.png">
+        </div>
+
+    </div>
+
+    <script>
+        var menuList = document.getElementById("menuList");
+        
+        menuList.style.maxHeight = "0px";
+
+        function togglemenu(){
+
+        if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "130px";
+            }
+        else
+            {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
