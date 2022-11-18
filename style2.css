@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    
+   
 }
 
 .container{
@@ -45,12 +45,12 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #000;
     font-size: 16px;
 }
 
 nav ul li a:hover{
-    color: #b40303
+    color: #8f0c0c
 }
 
 .row{
@@ -67,8 +67,14 @@ nav ul li a:hover{
 }
 
 .col-1 h2{
-    font-size: 45px;
+    font-size: 40px;
 }
+
+.col-1 h6{
+    font-size: 30px;
+}
+
+
 
 .col-1 h3{
     font-size: 54px;
@@ -92,7 +98,7 @@ button{
     padding: 12px 10px;
     outline: none;
     color: #fff;
-    background: linear-gradient(to right, #116f86, #46515c);
+    background: linear-gradient(to right, #0d0141, #46515c);
     border-radius: 6px;
     cursor: pointer;
     transition: width 0.5s;
@@ -118,7 +124,7 @@ button:hover{
     content: '';
     width: 10px;
     height: 101%;
-    background: linear-gradient( #cf0f13,#cf0f13);
+    background: linear-gradient( #4c84b3,#4c84b3);
     position: absolute;
     left: -40px;
     top: 8px;
@@ -217,11 +223,33 @@ button:hover{
     }
 
     .col-1 h2{
-        font-size: 35px;
+        font-size: 18px;
     }
 
     .col-1 h3{
         font-size: 15px;
     }
 
+    .col-1 h6{
+        font-size: 10px;
+    }
+
+}
+
+
+.button{
+    background: linear-gradient(rgb(9, 8, 10),rgb(119, 12, 12)) ;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 10px;
+    transition: .4s;
+}
+.button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
